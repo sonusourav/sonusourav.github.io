@@ -1,0 +1,56 @@
+
+#colorlib-counter {
+  position: relative;
+  clear: both;
+  }
+
+.colorlib-counters {
+  padding: 3em 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center; }
+  .colorlib-counters .overlay {
+    z-index: 0;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.4); }
+  
+  .colorlib-counters .colorlib-counter-label {
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 5px;
+    display: block; }
+    .colorlib-narrow-content {
+        padding: 0 2.5em; }
+        @media screen and (max-width: 768px) {
+          .colorlib-narrow-content {
+            padding: 0; } }
+            .js .animate-box {
+                opacity: 1; }
+
+                .counter {
+                  font-size:40px;
+                  width: 150px;
+                  height: 150px;
+                  color: #0075f6;
+                  position: absolute;
+                  vertical-align: middle;
+                  background-color: rgb(238, 231, 231) ;
+                  border-radius: 50%;
+                  font-family:"Quicksand", Arial, sans-serif; 
+                  position: absolute;
+                  left: 50%;
+                  top: 50%;
+                  transform: translate(-50%, -50%);
+                  margin-top: 30px;
+                  display: flex;
+                  justify-content:center;
+                  align-content:center;
+                  flex-direction:column;
+                
+                }
+              
