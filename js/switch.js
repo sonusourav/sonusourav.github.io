@@ -14,7 +14,6 @@ jQuery(document).ready(function($){
       $('h3').addClass('night');
       $('h4').addClass('night');
       $('h5').addClass('night');
-      $('h6').addClass('night');
       $('.progress-bar span').addClass('night');
       $('span.subheading').addClass('night');
     }else{
@@ -30,7 +29,6 @@ jQuery(document).ready(function($){
       $('h3').removeClass('night');
       $('h4').removeClass('night');
       $('h5').removeClass('night');
-      $('h6').removeClass('night');
      $('.progress-bar span').removeClass('night');
       $('span.subheading').removeClass('night');
     }
