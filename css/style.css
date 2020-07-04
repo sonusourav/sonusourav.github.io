@@ -12486,14 +12486,14 @@ textarea.form-control {
     font-size: 12px;
   }
   .cd-read-more{
-    height: 28px;
-    width: 65px;
+    height: 28px !important;
+    width: 65px !important;
     font-size: 9px;
     padding-top: 6px !important;
     padding-left: 6px !important;
   }
   .cd-timeline{
-    height: 28px;
+    height: 28px !important;
     width: 81px;
     font-size: 9px;
     padding-top: 6px !important;
