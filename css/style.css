@@ -10940,6 +10940,7 @@ h5,
     right: 0;
     bottom: 0;
     overflow-y: scroll;
+    overflow:-moz-scrollbars-vertical;
     z-index: 1;
     padding: 1em;
   }
@@ -11505,10 +11506,11 @@ h5,
   border-radius: 2px;
   opacity: 0;
 }
-.progress-bar span {
+.bar-fill {
   position: absolute;
-  top: -38px;
+  top: 8px;
   right: 0;
+  margin-right: 20px;
   font-size: 20px;
   font-weight: 400;
 }
@@ -12484,13 +12486,32 @@ textarea.form-control {
     font-size: 12px;
   }
   .cd-read-more{
-    height: 35px;
-    width: 90px;
+    height: 28px;
+    width: 65px;
     font-size: 9px;
-    padding-top: 9px !important;
-    padding-left: 14px !important;
+    padding-top: 6px !important;
+    padding-left: 6px !important;
+  }
+  .cd-timeline{
+    height: 28px;
+    width: 81px;
+    font-size: 9px;
+    padding-top: 6px !important;
+    padding-left: 6px !important;
+  }
+  .heading-section h2{
+    display: flex;
+    justify-content: center;
+  }
+  .heading-section .subheading{
+    display: flex;
+    justify-content: center;
   }
  
+  .centre_text{
+    display: flex;
+    justify-content: center;
+  }
 }
 .project_border{
   border-radius: 20px;

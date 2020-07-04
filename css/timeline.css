@@ -122,10 +122,10 @@ header h1 {
 .cd-timeline-img {
   position: absolute;
   top: 0;
-  left: 0;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+  left: -8px;
+  width: 55px;
+  height: 55px;
+  border-radius: 54%;
   box-shadow: 0 0 0 4px #ffffff, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 .cd-timeline-img img {
@@ -230,6 +230,7 @@ header h1 {
   background: #ffffff;
   border-radius: 0.25em;
   padding: 1em;
+  padding-bottom: 0px;
   box-shadow: 0 3px 0 #d7e4ed;
 }
 .cd-timeline-content::after {
@@ -258,6 +259,13 @@ header h1 {
   line-height: 1.6;
 }
 .cd-timeline-content .cd-read-more {
+  float: right;
+  padding: 0.8em 1em;
+  background: #acb7c0;
+  color: #ffffff;
+  border-radius: 0.25em;
+}
+.cd-timeline-content .cd-timeline {
   float: right;
   padding: 0.8em 1em;
   background: #acb7c0;
