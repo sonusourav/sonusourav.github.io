@@ -75,6 +75,7 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+  z-index: 2;
 }
 
 [tabindex="-1"]:focus {
@@ -10938,6 +10939,7 @@ h5,
     left: 0;
     right: 0;
     bottom: 0;
+    overflow-y: scroll;
     z-index: 1;
     padding: 1em;
   }
@@ -11691,7 +11693,7 @@ textarea.form-control {
 }
 @media (max-width: 767.98px) {
   .ftco-section {
-    padding: 6em 0;
+    padding: 1em 0;
   }
 }
 
@@ -12459,4 +12461,37 @@ textarea.form-control {
   opacity: 1;
   filter: "alpha(opacity=100)";
   -ms-filter: "alpha(opacity=100)";
+}
+
+@media (max-width: 991.98px){
+  .mobile_middle{
+    align-items: center;
+    flex-direction: column;
+    display: flex !important;
+    justify-content: center;
+  }
+  .mobile_parsec{
+    padding-top: 17px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+  .mobile_oss{
+    padding-top: 11px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+  .timeline_title{
+    font-size: 12px;
+  }
+  .cd-read-more{
+    height: 35px;
+    width: 90px;
+    font-size: 9px;
+    padding-top: 9px !important;
+    padding-left: 14px !important;
+  }
+ 
+}
+.project_border{
+  border-radius: 20px;
 }
