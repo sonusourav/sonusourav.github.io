@@ -12483,7 +12483,11 @@ textarea.form-control {
     padding-right: 5px !important;
   }
   .timeline_title{
+    font-size: 16px;
+  }
+  .timeline_text{
     font-size: 12px;
+    color: rgb(49, 49, 49);
   }
   .cd-read-more{
     height: 28px !important;

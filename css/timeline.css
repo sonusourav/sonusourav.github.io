@@ -227,6 +227,7 @@ header h1 {
 .cd-timeline-content {
   position: relative;
   margin-left: 60px;
+  margin-right: -31px;
   background: #ffffff;
   border-radius: 0.25em;
   padding: 1em;
@@ -281,6 +282,7 @@ header h1 {
 .cd-timeline-content .cd-date {
   float: left;
   padding: 0.8em 0;
+  padding-top: 4.8px;
   opacity: 0.7;
 }
 .cd-timeline-content::before {
