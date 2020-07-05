@@ -7,8 +7,8 @@ jQuery(document).ready(function ($) {
       $('blog-entry .text .heading a:focus').addClass('night');
       $('blog-entry .text .heading a:active').addClass('night');
       $('blog-entry .text .heading.a').addClass('night');
-      // $(".turn-white").css("color", "white");
-      $('a.nav-link span').addClass('night');
+      $(".turn-white").css("color", "white");
+      // $('a.nav-link span').addClass('night');
       $('p').addClass('night');
       $('h1').addClass('night');
       $('h2').addClass('night');
@@ -24,8 +24,8 @@ jQuery(document).ready(function ($) {
       $('blog-entry .text .heading a:focus').removeClass('night');
       $('blog-entry .text .heading a:active').removeClass('night');
       $('blog-entry .text .heading.a').removeClass('night');
-      $('a.nav-link span').removeClass('night');
-      // $(".turn-white").css("color", "black");
+      // $('a.nav-link span').removeClass('night');
+      $(".turn-white").css("color", "black");
       $('p').removeClass('night');
       $('h1').removeClass('night');
       $('h2').removeClass('night');
@@ -55,19 +55,21 @@ jQuery(document).ready(function ($) {
 $(document).ready(function () {
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
-    if ($("#toggle-box-checkbox").is(':checked')) {
-      if (scroll > 0) {
-        $(".turn-white").css("color", "black");
-      } else {
-        $(".turn-white").css("color", "white");
-      }
+    if (scroll > 0) {
+        $(".turn-white").addClass("night_nav");
+        $(".turn-white").removeClass("night");
     }
     else{
-      if (scroll > 0){
-        $(".turn-white").css("color", "black");
-      }else{
-        $(".turn-white").css("color", "white");
-      }
+      if ($("#toggle-box-checkbox").is(':checked')) {
+        $("#home").removeClass("night_nav");
+        $("#about").removeClass("night_nav");
+        $("#skills").removeClass("night_nav");
     }
-  })
+    else{
+      $("#home").removeClass("night_nav");
+      $("#about").removeClass("night_nav");
+      $("#skills").removeClass("night_nav");
+    }
+  }
+});
 });

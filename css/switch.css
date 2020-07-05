@@ -42,6 +42,12 @@ a .nav-link span .night {
   color: white;
   background-color: white;
 }
+.night_nav{
+  color:black !important;
+}
+.white_nav{
+  color: white !important;
+}
 p.night {
   background-position: 100% 100%;
   color: #fff;
