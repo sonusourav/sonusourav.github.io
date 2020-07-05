@@ -49,10 +49,10 @@ a .nav-link span .night {
   color: white;
 }
 @media (max-width: 991.98px){
-  .white_n{
+  .night_n{
     color: white;
   }
-}
+  }
 .night_nav{
   color:black !important;
 }

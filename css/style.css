@@ -4913,9 +4913,9 @@ input[type="button"].btn-block {
   color: rgba(0, 0, 0, 0.9);
 }
 
-.navbar-dark .navbar-brand {
+/* .navbar-dark .navbar-brand {
   color: #fff;
-}
+} */
 .navbar-dark .navbar-brand:hover,
 .navbar-dark .navbar-brand:focus {
   color: #fff;
@@ -10544,7 +10544,7 @@ h5,
   padding: 0;
 }
 .ftco-navbar-light .navbar-brand {
-  color: #000000;
+  /* color: #000000; */
   padding-top: 0.7rem;
   padding-bottom: 0.7rem;
 }
