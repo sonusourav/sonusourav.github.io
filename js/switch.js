@@ -7,7 +7,8 @@ jQuery(document).ready(function ($) {
       $('blog-entry .text .heading a:focus').addClass('night');
       $('blog-entry .text .heading a:active').addClass('night');
       $('blog-entry .text .heading.a').addClass('night');
-      $(".turn-white").css("color", "white");
+      $(".turn-white").addClass("white_n");
+      $(".turn-white").removeClass("night_n");
       // $('a.nav-link span').addClass('night');
       $('p').addClass('night');
       $('h1').addClass('night');
@@ -25,7 +26,8 @@ jQuery(document).ready(function ($) {
       $('blog-entry .text .heading a:active').removeClass('night');
       $('blog-entry .text .heading.a').removeClass('night');
       // $('a.nav-link span').removeClass('night');
-      $(".turn-white").css("color", "black");
+      $(".turn-white").removeClass("white_n");
+      $(".turn-white").addClass("night_n");
       $('p').removeClass('night');
       $('h1').removeClass('night');
       $('h2').removeClass('night');
@@ -59,17 +61,15 @@ $(document).ready(function () {
         $(".turn-white").addClass("night_nav");
         $(".turn-white").removeClass("night");
     }
-    else{
+    else if(scroll==0){
       if ($("#toggle-box-checkbox").is(':checked')) {
-        $("#home").removeClass("night_nav");
-        $("#about").removeClass("night_nav");
-        $("#skills").removeClass("night_nav");
+        $(".turn-white").addClass("white_n");
+        $(".turn-white").removeClass("night_nav");
     }
     else{
-      $("#home").removeClass("night_nav");
-      $("#about").removeClass("night_nav");
-      $("#skills").removeClass("night_nav");
+      $(".turn-white").removeClass("night_nav")
     }
+
   }
 });
 });

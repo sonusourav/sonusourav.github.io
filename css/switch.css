@@ -42,11 +42,19 @@ a .nav-link span .night {
   color: white;
   background-color: white;
 }
+.night_n{
+  color:black;
+}
+.white_n{
+  color: white;
+}
+@media (max-width: 991.98px){
+  .white_n{
+    color: white;
+  }
+}
 .night_nav{
   color:black !important;
-}
-.white_nav{
-  color: white !important;
 }
 p.night {
   background-position: 100% 100%;
