@@ -75,6 +75,7 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+  z-index: 2;
 }
 
 [tabindex="-1"]:focus {
@@ -4912,9 +4913,9 @@ input[type="button"].btn-block {
   color: rgba(0, 0, 0, 0.9);
 }
 
-.navbar-dark .navbar-brand {
+/* .navbar-dark .navbar-brand {
   color: #fff;
-}
+} */
 .navbar-dark .navbar-brand:hover,
 .navbar-dark .navbar-brand:focus {
   color: #fff;
@@ -10543,7 +10544,7 @@ h5,
   padding: 0;
 }
 .ftco-navbar-light .navbar-brand {
-  color: #000000;
+  /* color: #000000; */
   padding-top: 0.7rem;
   padding-bottom: 0.7rem;
 }
@@ -10938,6 +10939,8 @@ h5,
     left: 0;
     right: 0;
     bottom: 0;
+    overflow-y: scroll;
+    overflow:-moz-scrollbars-vertical;
     z-index: 1;
     padding: 1em;
   }
@@ -11503,10 +11506,11 @@ h5,
   border-radius: 2px;
   opacity: 0;
 }
-.progress-bar span {
+.bar-fill {
   position: absolute;
-  top: -38px;
+  top: 8px;
   right: 0;
+  margin-right: 20px;
   font-size: 20px;
   font-weight: 400;
 }
@@ -11691,7 +11695,7 @@ textarea.form-control {
 }
 @media (max-width: 767.98px) {
   .ftco-section {
-    padding: 6em 0;
+    padding: 1em 0;
   }
 }
 
@@ -12007,7 +12011,7 @@ textarea.form-control {
   font-weight: 500;
 }
 .blog-entry .text .heading a {
-  color: #000000;
+  color: #0075f6;
 }
 .blog-entry .text .heading a:hover,
 .blog-entry .text .heading a:focus,
@@ -12459,4 +12463,60 @@ textarea.form-control {
   opacity: 1;
   filter: "alpha(opacity=100)";
   -ms-filter: "alpha(opacity=100)";
+}
+
+@media (max-width: 991.98px){
+  .mobile_middle{
+    align-items: center;
+    flex-direction: column;
+    display: flex !important;
+    justify-content: center;
+  }
+  .mobile_parsec{
+    padding-top: 17px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+  .mobile_oss{
+    padding-top: 11px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+  .timeline_title{
+    font-size: 16px;
+  }
+  .timeline_text{
+    font-size: 12px;
+    color: rgb(49, 49, 49);
+  }
+  .cd-read-more{
+    height: 28px !important;
+    width: 65px !important;
+    font-size: 9px;
+    padding-top: 6px !important;
+    padding-left: 6px !important;
+  }
+  .cd-timeline{
+    height: 28px !important;
+    width: 81px;
+    font-size: 9px;
+    padding-top: 6px !important;
+    padding-left: 6px !important;
+  }
+  .heading-section h2{
+    display: flex;
+    justify-content: center;
+  }
+  .heading-section .subheading{
+    display: flex;
+    justify-content: center;
+  }
+ 
+  .centre_text{
+    display: flex;
+    justify-content: center;
+  }
+}
+.project_border{
+  border-radius: 20px;
 }
