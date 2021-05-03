@@ -136,6 +136,11 @@ header h1 {
 .cd-timeline-img.cd-green {
   background: #75ce66;
 }
+
+.cd-timeline-img.cd-moneyview {
+  background: #67B630;
+}
+
 .cd-timeline-img.cd-panasonic {
   background: #0142bf;
 }

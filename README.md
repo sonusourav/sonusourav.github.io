@@ -50,7 +50,9 @@ Thanks to all these people for their wonderful contribution:
   <tr>
     <td align="center"><a href="https://github.com/mayank-1-2"><img src="https://mayank-1-2.github.io/portfolio/index_files/leftimage-dark.jpg" width="100px;" alt=""/><br /><sub><b>Mayank Kumar Mishra</b></sub></a></td>
   </tr>
-
+<tr>
+    <td align="center"><a href="https://github.com/shivanisorte"><img src="https://avatars.githubusercontent.com/u/69205415?v=4" width="100px;" alt=""/><br /><sub><b> Shivani Sorte</b></sub></a></td>
+  </tr>
 </table>
 
 ---
