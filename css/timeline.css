@@ -154,6 +154,9 @@ header h1 {
 .cd-timeline-img.cd-jio {
   background:#055bab;
 }
+.cd-timeline-img.cd-zomato {
+  background:#ea2130;
+}
 .cd-timeline-img.cd-black {
   background: rgb(0, 0, 0);
 }
