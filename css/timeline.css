@@ -155,10 +155,13 @@ header h1 {
   background:#055bab;
 }
 .cd-timeline-img.cd-zomato {
-  background:#ea2130;
+  background:#df264a;
+}
+.cd-timeline-img.cd-sharechat {
+  background:#dfd6d6;
 }
 .cd-timeline-img.cd-black {
-  background: rgb(0, 0, 0);
+  background:rgb(0, 0, 0);
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
